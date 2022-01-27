@@ -203,7 +203,7 @@ function PickersCalendarHeader<TDate>(props: PickersCalendarHeaderProps<TDate>) 
             data-mui-test="calendar-year-text"
             ownerState={ownerState}
           >
-            {utils.format(month, 'year')}
+            {utils.format(month, 'year') + 543}
           </PickersCalendarHeaderLabelItem>
         </FadeTransitionGroup>
         {views.length > 1 && !disabled && (
